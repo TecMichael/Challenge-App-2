@@ -246,7 +246,7 @@ class _SecondScreenState extends State<SecondScreen> {
                               ),
                             ),
                           ),
-                          const SizedBox(height: 20)
+                          const SizedBox(height: 10)
                         ],
                       ),
                     ],

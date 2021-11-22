@@ -170,8 +170,10 @@ class _HomePageScreenState extends State<HomePageScreen> {
                 scrollDirection: Axis.horizontal,
                 child: GestureDetector(
                   onTap: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (_) => const SecondScreen()));
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (_) => const SecondScreen()));
                   },
                   child: Row(
                     children: const [
@@ -222,7 +224,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
                   )
                 ],
               ),
-              const SizedBox(height: 25),
+              // const SizedBox(height: 25),
               Container(
                 height: 145,
                 width: 388,
@@ -244,7 +246,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
                   children: [
                     Padding(
                       padding:
-                          const EdgeInsets.only(right: 30, top: 30, bottom: 30),
+                          const EdgeInsets.only(right: 28, top: 30, bottom: 30),
                       child: CircleAvatar(
                         radius: 45,
                         backgroundColor: Colors.transparent,
@@ -252,7 +254,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
                           width: 122,
                           decoration: const BoxDecoration(
                             image: DecorationImage(
-                                image: AssetImage('assets/cake1.png'),
+                                image: AssetImage('assets/cake3.png'),
                                 fit: BoxFit.cover),
                           ),
                         ),
